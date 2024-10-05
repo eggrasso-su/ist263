@@ -1,0 +1,5 @@
+body{font-family: Arial,sans-serif:}
+Grouped selectors h1,h2 { color:navy;}
+.evenrow{background-color: aliceblue;}
+h1{font-size: 2.5em;}
+h2{font-size: 1.8em;}
