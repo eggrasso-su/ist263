@@ -1,13 +1,18 @@
+body{font-family: Arial,sans-serif;}
+Grouped selectors h1,h2 { color:navy;}
+.evenrow {background-color: aliceblue;}
+h1{font-size: 2.5em;}
+h2{font-size: 1.8em;}
 
-body{background-image: url('images/syracuse logo.png');
+body{background-image: url("syracuse\ logo.png");
 background-repeat: repeat;
-background-size: contain;
+background-color: blue;
 margin:0;
 padding:0;
 }
 
-.styled-paragraph {
-    background-color: blue;
+p{
+    background-color: #f4a460;
     color:#ffffff;
     padding: 20px;
     border: 3px solid #ff5733;
