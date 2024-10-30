@@ -8,49 +8,50 @@
 </head>
 <body>
     <nav>
-        <a href="index.html">Home</a>|
-        <a href="skills.html">Skills</a>|
+        <a href="index.html">Home</a> <span>|</span>
+        <a href="skills.html">Skills</a> <span>|</span>
         <a href="contact.html">Contact</a>
     </nav>
+<div class="container">
     <h1>Contact</h1>
-    <div style="max-width: 800px; margin: 0 auto;">
-    <div style="display: flex; gap:20px; margin-bottom: 20px;">
-        <div style="flex: 1; background-color: #e0f7fa; padding: 20px; border-radius: 10px;">
-    <p> Emma Grasso</p><br>
-    <p> 404 University Ave</p>
+    <div class="box" style="background-color: #e0f7fa;">
+        <p> Emma Grasso</p><br>
+        <p> 404 University Ave</p>
     </div>
-    <div style="flex: 1; background-color: #ffe0b2; padding: 20px; border-radius: 10px;">
+    <div class="box" style="background-color: #ffe0b2;">
     <p><a href="https://www.linkedin.com/in/emma-grasso-6198141a2">My LinkedIn Profile</a><br>
     <a href="mailto:eggrasso@syr.edu">Emma Grasso Email</a></p>
-    <a href="https://www.linkedin.com/in/emma-grasso-6198141a2">
-        <img src="../images/logo-sized.png" alt="LinkedIn Picture" style="max-width: 100%; height: auto;">
-    </a><br>
-    <img src="../images/Lab5.png" alt="EmmaPicture" style="max-width: 100%; height:auto;">
+    <img src="../images/logo-sized.png" alt="LinkedIn Picture">
+    <img src="../images/Lab5.png" alt="EmmaPicture">
     </div>
 </div>
     
-<div style="display: flex; gap:20px;">
-    <div style="flex: 1; background-color: #e1bee7; padding: 20px; border-radius: 10px;">
+<div class="flex-container">
+    <div class="box" style="background-color: #e1bee7;">
     <form action="https://formspree.io/f/mnnakzav" method="post">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" style="width:100%; padding: 10px; margin-top: 10px; border: 1px solid #ccc; border-radius: 5px;"><br>
-        <label for="lname" style="margin-top: 10px; display: block;">Last name:</label><br>
-        <input type="text" id="lname" name="lname" style="width:100%; padding: 10px; margin-top: 10px; border: 1px solid #ccc; border-radius: 5px;"><br>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
+
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname">
+
     <p>Choose the skill category you have the most experience in</p>
         <input type="radio" id="technology" name="most_experience" value="Technology">
         <label for="technology">Technology</label><br>
+
         <input type="radio" id="business" name="most_experience" value="Business">
         <label for="business">Business</label><br>
+
         <input type="radio" id="creative" name="most_experience" value="Creative">
         <label for="creative">Creative</label><br>
-        <input type="submit" value="Submit" style="margin-top: 10px; padding: 10px 20px; border: none; background-color: #4caf50; color: white; border-radius: 5px;">
+
+        <input type="submit" value="Submit">
     </form>
-    <textarea name="message" rows="10" cols="30" style="width: 100%; padding: 10px; margin-top: 10px; border-radius: 5px;">
-        Thank you for visiting my website.
-    </textarea>
-    </div>
-    <div style="flex: 1; background-color: #c5e1a5; padding: 20px; border-radius: 10px;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.7628669000683!2d-76.13737882383339!3d43.04642059146382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3a721b158ab%3A0x3d68244594f4f5de!2s404%20University%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1726267531311!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <textarea name="message" rows="10" cols="30">Thank you for visiting my website.</textarea>
+</div>
+<div class="box" style="background-color: #c5e1a5;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.7628669000683!2d-76.13737882383339!3d43.04642059146382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3a721b158ab%3A0x3d68244594f4f5de!2s404%20University%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1726267531311!5m2!1sen!2sus"></iframe>
         </div>
     </div>
 </div>
