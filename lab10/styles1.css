@@ -81,8 +81,8 @@ a:hover {
     padding: 10px;
     border-radius: 4px;
 }
-.skill img {
-    max-width: 60px;
+.skills-icons .skill img {
+    max-width: 60px !important;
     height: auto;
     margin-bottom: 5px;
 }
