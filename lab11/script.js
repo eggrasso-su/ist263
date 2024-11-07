@@ -1,12 +1,10 @@
 
 function WinnerMessage() {
-    alert("You Won!"); 
     document.getElementById("message").innerHTML = "You Won!"; 
 }
 
 
 function TryAgain() {
-    alert("Wrong Shell - Try Again"); 
     document.getElementById("message").innerHTML = "Wrong Shell - Try Again"; 
 }
 
