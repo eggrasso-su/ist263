@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shell Game</title>
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="ShuffleShells()">
+
+    <h1>Welcome to the Shell Game!</h1>
+
+    <!-- Walnut Shell Images, assuming IDs "first", "second", and "third" for the game -->
+    <div class="container">
+        <img src="shell1.png" id="first" onclick="WinnerMessage()">
+        <img src="shell2.png" id="second" onclick="TryAgain()">
+        <img src="shell3.png" id="third" onclick="TryAgain()">
+    </div>
+
+    <!-- Message Display Area -->
+    <div id="message"></div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
+
